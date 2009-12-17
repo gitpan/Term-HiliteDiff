@@ -1,26 +1,28 @@
 --- #YAML:1.0
 name:               Term-HiliteDiff
-version:            0.07
+version:            0.08
 abstract:           Highlights differences in text with ANSI escape codes
 author:
     - Josh ben Jore <jjore@cpan.org>
-license:            unknown
+license:            perl
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Algorithm::Diff:  0
-    Exporter:         0
-    strict:           0
-    Test::More:       0
-    vars:             0
+    Exporter:    0
+    perl:        5.005
+    strict:      0
+    Test::More:  0
+    vars:        0
+resources:
+    repository:  http://github.com/jbenjore/Term-HiliteDiff
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.52
+generated_by:       ExtUtils::MakeMaker version 6.55_02
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

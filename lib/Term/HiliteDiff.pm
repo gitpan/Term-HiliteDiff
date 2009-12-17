@@ -4,7 +4,7 @@ use strict;
 use vars qw( $VERSION @EXPORT_OK %EXPORT_TAGS $DEFAULTOBJ );
 use Term::HiliteDiff::_impl ();
 
-$VERSION = '0.07';
+$VERSION = '0.08';
 
 use Exporter ();
 *import      = \&Exporter::import;
@@ -32,9 +32,7 @@ sub watch {
 
 # Hey, a class constructor.
 sub new {
-    my ( $class ) = @_;
-
-    return bless [], "${class}::_impl";
+    return Term::HiliteDiff::_impl->new;
 }
 
 # Blatantly copied this from errantstory.com
