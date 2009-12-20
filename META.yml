@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Term-HiliteDiff
-version:            0.08
+version:            0.09
 abstract:           Highlights differences in text with ANSI escape codes
 author:
     - Josh ben Jore <jjore@cpan.org>
